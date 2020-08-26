@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14949" started-at="2020-08-26T00:03:39Z" finished-at="2020-08-26T00:03:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14949" started-at="2020-08-26T00:03:39Z" finished-at="2020-08-26T00:03:54Z">
+      <class name="test.SearchHotels">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="openBrowser" is-config="true" duration-ms="11101" started-at="2020-08-26T00:03:39Z" finished-at="2020-08-26T00:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testTrelloPageLogin()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="testTrelloPageLogin" duration-ms="2994" started-at="2020-08-26T00:03:50Z" description="Verify Login to Trello" finished-at="2020-08-26T00:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTrelloPageLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="closeBrowser" is-config="true" duration-ms="819" started-at="2020-08-26T00:03:53Z" finished-at="2020-08-26T00:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.SearchHotels -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
