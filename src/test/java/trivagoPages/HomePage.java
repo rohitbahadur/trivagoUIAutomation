@@ -17,8 +17,8 @@ public class HomePage extends WaitForPagesToLoad {
 	/* Returns the Hotel namen element on landing page */
 
 	private WebElement hotelname() {
-		element = browser.findElement(By.name("sQuery"));
-		return element;
+		
+		return  browser.findElement(By.name("sQuery"));
 	}
 
 	/* Action performed on login button element on landing page */
@@ -30,19 +30,18 @@ public class HomePage extends WaitForPagesToLoad {
 	}
 
 	private WebElement fromCalendermonth() {
-		element = browser.findElement(By.xpath("//div[@key='df-over']"));
-		return element;
+		
+		return browser.findElement(By.xpath("//div[@key='df-over']"));
 	}
 
 	public void selectFromCalendermonth() {
 
-		waitForElementToBeClickable(browser, hotelname());
+		waitForElementToBeClickable(browser, fromCalendermonth());
 
 		Actions as = new Actions(browser);
 		as.moveToElement(fromCalendermonth()).click().build().perform();
 
-		List<WebElement> fromAllValidDates = element
-				.findElements(By.xpath("//time[contains(@class,'cal-day cal-is-selectable')]"));
+		List<WebElement> fromAllValidDates = fromCalendermonth().findElements(By.xpath("//time[contains(@class,'cal-day cal-is-selectable')]"));
 
 		for (WebElement fromDate : fromAllValidDates) {
 			fromDate.click();
@@ -52,15 +51,14 @@ public class HomePage extends WaitForPagesToLoad {
 	}
 
 	private WebElement toCalendermonth() {
-		element = browser.findElement(By.xpath("//button[@class='cal-btn-next']/following-sibling::div[1]"));
-		return element;
+		
+		return browser.findElement(By.xpath("//button[@class='cal-btn-next']/following-sibling::div[1]"));
 	}
 
 	public void selectToCalenderMonth() {
 		waitForElementToBeClickable(browser, toCalendermonth());
 
-		List<WebElement> toAllValidDates = element
-				.findElements(By.xpath("//time[contains(@class,'cal-day cal-is-selectable')]"));
+		List<WebElement> toAllValidDates = toCalendermonth().findElements(By.xpath("//time[contains(@class,'cal-day cal-is-selectable')]"));
 
 		for (WebElement toDate : toAllValidDates) {
 			if (toDate.getText().equals("09")) {
@@ -73,8 +71,7 @@ public class HomePage extends WaitForPagesToLoad {
 	
 	private WebElement searchButton() {
 		
-		element = browser.findElement(By.xpath("//button/span[text()='Suchen']"));
-		return element;
+		return browser.findElement(By.xpath("//button/span[text()='Suchen']"));
 	}
 
 	public void clickSearchButton() {

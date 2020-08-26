@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14949" started-at="2020-08-26T00:03:39Z" finished-at="2020-08-26T00:03:54Z">
+  <suite name="Default suite" duration-ms="11528" started-at="2020-08-26T00:33:25Z" finished-at="2020-08-26T00:33:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14949" started-at="2020-08-26T00:03:39Z" finished-at="2020-08-26T00:03:54Z">
+    <test name="Default test" duration-ms="11528" started-at="2020-08-26T00:33:25Z" finished-at="2020-08-26T00:33:37Z">
       <class name="test.SearchHotels">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="openBrowser" is-config="true" duration-ms="11101" started-at="2020-08-26T00:03:39Z" finished-at="2020-08-26T00:03:50Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="openBrowser" is-config="true" duration-ms="7784" started-at="2020-08-26T00:33:25Z" finished-at="2020-08-26T00:33:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testTrelloPageLogin()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="testTrelloPageLogin" duration-ms="2994" started-at="2020-08-26T00:03:50Z" description="Verify Login to Trello" finished-at="2020-08-26T00:03:53Z">
+        <test-method status="PASS" signature="SearchHotelTest()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="SearchHotelTest" duration-ms="2832" started-at="2020-08-26T00:33:33Z" description="Verify Search Hotel in Hamburg" finished-at="2020-08-26T00:33:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTrelloPageLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="closeBrowser" is-config="true" duration-ms="819" started-at="2020-08-26T00:03:53Z" finished-at="2020-08-26T00:03:54Z">
+        </test-method> <!-- SearchHotelTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="closeBrowser" is-config="true" duration-ms="870" started-at="2020-08-26T00:33:36Z" finished-at="2020-08-26T00:33:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

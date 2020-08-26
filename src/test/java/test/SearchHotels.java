@@ -10,8 +10,9 @@ public class SearchHotels extends DriverSetUp {
 
 	WebDriver browser;
 
-	@Test(description= "Verify Login to Trello")
-	public void testTrelloPageLogin() {
+	@Test(description= "Verify Search Hotel in Hamburg")
+	
+	public void SearchHotelTest() {
 
 		HomePage homepage = new HomePage();
 
