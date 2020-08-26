@@ -4,43 +4,52 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
+import utils.ScrollPage;
 import utils.WaitForPagesToLoad;
 
 public class DisplayHotelsListPage extends WaitForPagesToLoad {
 
+	// ScrollPage scroll = new ScrollPage();
+
 	private WebElement allHotelsDisplayed() {
 
-		return browser.findElement(By.id("js_item_list_section"));
+		return browser.findElement(By.xpath("//div/section[@id='js_item_list_section']"));
 	}
 
 	public void selectFromlistOfHotelsDisplayed() {
 
 		waitForElementToBeClickable(browser, allHotelsDisplayed());
 
+		Actions as = new Actions(browser);
+		as.moveToElement(allHotelsDisplayed()).click().build().perform();
+
 		List<WebElement> hotelsList = allHotelsDisplayed()
-				.findElements(By.xpath("//div[@class = 'accommodation-list__wrap--f43c0']"));
+				.findElements(By.xpath("//div[@class ='accommodation-list__wrap--f43c0']"));
 
 		for (WebElement fromHotelsList : hotelsList) {
-			fromHotelsList.click();
+			fromHotelsList.getText();
 			break;
 		}
 
 	}
 
 	private WebElement viewDeal() {
+		// scroll.scrollPage();
 
-		return browser.findElement(
-				By.xpath("//span[@class = 'icon-ic accommodation-list__icon--19c73 icon-center']"));
+		return browser.findElement(By.xpath("//button[@data-qa='cheapest-deal']"));
 	}
 
 	public void clickViewDeal() {
 
 		waitForElementToBeClickable(browser, viewDeal()).click();
 
+		Actions as = new Actions(browser);
+		as.moveToElement(viewDeal()).click().build().perform();
+
 	}
 
-	
 	private WebElement angebote() {
 
 		return browser.findElement(By.xpath("//button[text()='Angebote']"));
@@ -48,14 +57,7 @@ public class DisplayHotelsListPage extends WaitForPagesToLoad {
 
 	public void selectAngebote() {
 
-		waitForElementToBeClickable(browser, angebote());
-
-		List<WebElement> angeboteDeal = angebote().findElements(By.xpath("//span[@data-qa='slideout-deal-price']"));
-
-		for (WebElement deal : angeboteDeal) {
-			deal.click();
-			break;
-		}
+		waitForElementToBeClickable(browser, angebote()).click();
 
 	}
 

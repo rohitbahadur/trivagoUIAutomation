@@ -18,7 +18,7 @@ public class SearchHotels extends DriverSetUp {
 
 	@Test(description= "Search Hotel in Hamburg")
 	
-	public void SearchHotelTest() {
+	public void SearchHotelTest() throws InterruptedException {
 		
 
 		homepage.enterHotelname();
@@ -27,7 +27,16 @@ public class SearchHotels extends DriverSetUp {
 		homepage.clickSearchButton();
 		
 		listHotels.selectFromlistOfHotelsDisplayed();
+		
+		System.out.println("Hotel List displayed");
+		
 		listHotels.clickViewDeal();
+		
+		System.out.println("view deal");
+		
+		//listHotels.waitForPageToLoadFully();
+		
+		Thread.sleep(5000);
 		listHotels.selectAngebote();
 		
 		listHotels.waitForPageToLoadFully();
