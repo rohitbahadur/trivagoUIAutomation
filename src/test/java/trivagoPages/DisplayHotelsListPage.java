@@ -9,6 +9,8 @@ import utils.WaitForPagesToLoad;
 
 public class DisplayHotelsListPage extends WaitForPagesToLoad {
 	
+public static String pagetitle = "trivago.de – Hotelpreise weltweit vergleichen";
+	
 	private WebElement allHotelsDisplayed() {
 		
 		return browser.findElement(By.id("js_item_list_section"));

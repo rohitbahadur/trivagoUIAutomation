@@ -5,9 +5,9 @@
     <classes>
       <class name="test.SearchHotels">
         <methods>
+          <include name="SearchHotelTest"/>
           <include name="closeBrowser"/>
           <include name="openBrowser"/>
-          <include name="testTrelloPageLogin"/>
         </methods>
       </class> <!-- test.SearchHotels -->
     </classes>

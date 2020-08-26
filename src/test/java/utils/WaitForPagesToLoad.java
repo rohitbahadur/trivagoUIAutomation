@@ -36,4 +36,15 @@ public class WaitForPagesToLoad extends DriverSetUp {
 			 return list;
 	}
 
+
+	protected final WebElement waitForPageToLoad(WebDriver browser, WebElement webElement) {
+
+		WebDriverWait wait = new WebDriverWait(browser, 30);
+
+		WebElement element = wait.until(ExpectedConditions.visibilityOf(webElement));
+		return element;
+	}
+
+
+
 }
