@@ -1,0 +1,7 @@
+trivagoPages\DisplayHotelsListPage.class
+config\ProjectConfig.class
+setup\DriverSetUp.class
+utils\WaitForPagesToLoad.class
+utils\WaitForPagesToLoad$1.class
+test\SearchHotels.class
+trivagoPages\HomePage.class

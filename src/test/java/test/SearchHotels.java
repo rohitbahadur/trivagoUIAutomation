@@ -27,6 +27,9 @@ public class SearchHotels extends DriverSetUp {
 		homepage.clickSearchButton();
 		
 		listHotels.selectFromlistOfHotelsDisplayed();
+		listHotels.clickViewDeal();
+		listHotels.selectAngebote();
+		
 		listHotels.waitForPageToLoadFully();
 		
 		Assert.assertTrue(true, "trivago.de");
