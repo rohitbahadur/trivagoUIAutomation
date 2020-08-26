@@ -4,26 +4,24 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 
 import utils.WaitForPagesToLoad;
 
 public class DisplayHotelsListPage extends WaitForPagesToLoad {
 	
-	private WebElement fromCalendermonth() {
-		element = browser.findElement(By.xpath("//div[@key='df-over']"));
-		return element;
+	private WebElement allHotelsDisplayed() {
+		
+		return browser.findElement(By.id("js_item_list_section"));
 	}
 
-	public void selectFromCalendermonth() {
+	public void selectFromlistOfHotelsDisplayed() {
 
-		waitForElementToBeClickable(browser, hotelname());
+		waitForElementToBeClickable(browser, allHotelsDisplayed());
 
-		List<WebElement> fromAllValidDates = element
-				.findElements(By.xpath("//time[contains(@class,'cal-day cal-is-selectable')]"));
+		List<WebElement> hotelsList = allHotelsDisplayed().findElements(By.xpath("//article[contains(@class,'item bg-white')]"));
 
-		for (WebElement fromDate : fromAllValidDates) {
-			fromDate.click();
+		for (WebElement fromHotelsList : hotelsList) {
+			System.out.println(fromHotelsList.getSize());
 			break;
 		}
 
