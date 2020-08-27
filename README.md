@@ -46,6 +46,7 @@ If github is not configured on the system, then project can be downloaded using 
    navigate to respective url in application are maintained in this package ProjectConfig.properties file.
 3. setup package --> This package has DriverSetup class to initialize the 
    webdriver/s which is used to launch the browser/s(chrome,firefox).For the current implementation Chrome is used as a default browser.
+4. Ensure the latest version of chrome is installed onn the system. If the script fails, the logs will clearly mention the need for update of chrome version mismatch.
 
 ###### Note: I have eliminated the need to download the browser drivers locally. All th browser bindings is managed via maven.
     This has been achieved using WebDriverManager in the setup.
