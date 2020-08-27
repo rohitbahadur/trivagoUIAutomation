@@ -1,9 +1,9 @@
-# trivago search 
-trivago search hotel is a selenium based test automation platform for performing UI based automated search. 
+## trivago search 
+trivago search is a test automation utlity for performing browser based automated search using selenium webdriver. 
 
 ### Tech stack used in building the framework 
 ##### Programming language used: java 1.8
-##### Unit Test framework : TestNG version 6.14.3
+##### Unit Test framework : TestNG version 6.14.3 for reporting and logging
 ##### Automation API : Selenium version 3.141.59
 ##### Build tool: Maven
 ##### IDE : Eclipse Version: 2019-03 (4.11.0)
@@ -38,7 +38,7 @@ If github is not configured on the system, then project can be downloaded using 
 
 
 
-#### Project Design Strategy
+### Project Design Strategy
 
 #### The project is designed using page object model principles.
 1. pages package --> Page objects are stored in their respective page under "trivagoPages" package.
@@ -62,7 +62,7 @@ If github is not configured on the system, then project can be downloaded using 
    pom.xml.
 
 
-#### For executing the tests, expand daliatest and right click pom.xml and select Run As --> Maven test(ensure once downloaded / cloned as from git, let the needed dependencies be downloaded by maven. This may take some and the status can be viewed in bottom right corner "Building Workspace")
+#### For executing the tests, expand daliatest and right click pom.xml and select Run As --> Maven test / Maven clean verify (ensure once downloaded / cloned as from git, let the needed dependencies be downloaded by maven. This may take some and the status can be viewed in bottom right corner "Building Workspace" )
 
 
 #### Configurations in pom.xml
