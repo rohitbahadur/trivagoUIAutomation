@@ -62,7 +62,7 @@ If github is not configured on the system, then project can be downloaded using 
    pom.xml.
 
 
-#### For executing the tests, expand daliatest and right click pom.xml and select Run As --> Maven test(ensure once downloaded / cloned as from git, let the needed dependencies be downloaded by maven. This may take some and the status can be viewed in bottom right corner "Building Workspace")
+#### For executing the tests, expand daliatest and right click pom.xml and select Run As --> Maven test / Maven clean verify (ensure once downloaded / cloned as from git, let the needed dependencies be downloaded by maven. This may take some and the status can be viewed in bottom right corner "Building Workspace" )
 
 
 #### Configurations in pom.xml
