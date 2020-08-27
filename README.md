@@ -3,7 +3,7 @@ trivago search hotel is a selenium based test automation platform for performing
 
 ### Tech stack used in building the framework 
 ##### Programming language used: java 1.8
-##### Unit Test framework : TestNG version 6.14.3
+##### Unit Test framework : TestNG version 6.14.3 for reporting and logging
 ##### Automation API : Selenium version 3.141.59
 ##### Build tool: Maven
 ##### IDE : Eclipse Version: 2019-03 (4.11.0)
