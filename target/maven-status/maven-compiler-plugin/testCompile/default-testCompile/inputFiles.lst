@@ -1,6 +1,8 @@
 E:\trivago\src\test\java\config\ProjectConfig.java
+E:\trivago\src\test\java\utils\ScrollPage.java
 E:\trivago\src\test\java\trivagoPages\HomePage.java
+E:\trivago\src\test\java\trivagoPages\HotelsResultsPage.java
 E:\trivago\src\test\java\utils\WaitForPagesToLoad.java
 E:\trivago\src\test\java\setup\DriverSetUp.java
+E:\trivago\src\test\java\test\SearchHotelsTest.java
 E:\trivago\src\test\java\trivagoPages\DisplayHotelsListPage.java
-E:\trivago\src\test\java\test\SearchHotels.java

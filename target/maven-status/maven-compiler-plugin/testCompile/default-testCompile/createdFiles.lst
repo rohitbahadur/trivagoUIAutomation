@@ -2,6 +2,8 @@ trivagoPages\DisplayHotelsListPage.class
 config\ProjectConfig.class
 setup\DriverSetUp.class
 utils\WaitForPagesToLoad.class
+test\SearchHotelsTest.class
 utils\WaitForPagesToLoad$1.class
-test\SearchHotels.class
+trivagoPages\HotelsResultsPage.class
 trivagoPages\HomePage.class
+utils\ScrollPage.class

@@ -8,7 +8,7 @@ import setup.DriverSetUp;
 import trivagoPages.DisplayHotelsListPage;
 import trivagoPages.HomePage;
 
-public class SearchHotels extends DriverSetUp {
+public class SearchHotelsTest extends DriverSetUp {
 
 	HomePage homepage = new HomePage();
 	DisplayHotelsListPage listHotels = new DisplayHotelsListPage();
@@ -19,7 +19,7 @@ public class SearchHotels extends DriverSetUp {
 
 	public void SearchHotelTest() {
 
-		homepage.enterHotelname();
+		homepage.enterHotelnameOrDestination();
 		homepage.selectFromCalendermonth();
 		homepage.selectToCalenderMonth();
 		homepage.clickSearchButton();
@@ -32,7 +32,7 @@ public class SearchHotels extends DriverSetUp {
 
 		listHotels.waitForPageToLoadFully();
 
-		Assert.assertTrue(true, "trivago.de");
+		Assert.assertTrue(true, "Access Denied");
 
 	}
 

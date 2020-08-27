@@ -1,25 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Test Initiated]]>
+    </line>
+    <line>
+      <![CDATA[Launch chrome browser]]>
+    </line>
+    <line>
+      <![CDATA[Open trivago.de page]]>
+    </line>
+    <line>
+      <![CDATA[EnterHotelnameOrDestination field is detected and destination name 'Hamburg' is entered]]>
+    </line>
+    <line>
+      <![CDATA[FromCalenderMonth element is detected and date is selected ]]>
+    </line>
+    <line>
+      <![CDATA[ToCalenderMonth element is detected and date is selected ]]>
+    </line>
+    <line>
+      <![CDATA[SearchButton element is detected and clicked. This will wait to fetch the hotel list ]]>
+    </line>
+    <line>
+      <![CDATA[List of hotels searched in the city on Homepage of trivago.de is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[Unser niedrigster Preis element is detected and clicked ]]>
+    </line>
+    <line>
+      <![CDATA[Option from Angebote is selected and the selected hotel detail is opened in a new tab]]>
+    </line>
+    <line>
+      <![CDATA[Post this step, the security blocks further execution via automated scripts]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="22867" started-at="2020-08-26T02:51:04Z" finished-at="2020-08-26T02:51:27Z">
+  <suite name="Suite" duration-ms="78540" started-at="2020-08-27T02:18:14Z" finished-at="2020-08-27T02:19:32Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22867" started-at="2020-08-26T02:51:04Z" finished-at="2020-08-26T02:51:27Z">
-      <class name="test.SearchHotels">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.SearchHotels@2b6856dd]" name="openBrowser" is-config="true" duration-ms="10570" started-at="2020-08-26T02:51:04Z" finished-at="2020-08-26T02:51:15Z">
+    <test name="Test" duration-ms="78540" started-at="2020-08-27T02:18:14Z" finished-at="2020-08-27T02:19:32Z">
+      <class name="test.SearchHotelsTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.SearchHotelsTest@2b6856dd]" name="openBrowser" is-config="true" duration-ms="9639" started-at="2020-08-27T02:18:14Z" finished-at="2020-08-27T02:18:24Z">
           <reporter-output>
+            <line>
+              <![CDATA[Test Initiated]]>
+            </line>
+            <line>
+              <![CDATA[Launch chrome browser]]>
+            </line>
+            <line>
+              <![CDATA[Open trivago.de page]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="SearchHotelTest()[pri:0, instance:test.SearchHotels@2b6856dd]" name="SearchHotelTest" duration-ms="10113" started-at="2020-08-26T02:51:15Z" description="Search Hotel in Hamburg" finished-at="2020-08-26T02:51:25Z">
+        <test-method status="PASS" signature="SearchHotelTest()[pri:0, instance:test.SearchHotelsTest@2b6856dd]" name="SearchHotelTest" duration-ms="67904" started-at="2020-08-27T02:18:24Z" description="Search Hotel in Hamburg" finished-at="2020-08-27T02:19:32Z">
           <reporter-output>
+            <line>
+              <![CDATA[EnterHotelnameOrDestination field is detected and destination name 'Hamburg' is entered]]>
+            </line>
+            <line>
+              <![CDATA[FromCalenderMonth element is detected and date is selected ]]>
+            </line>
+            <line>
+              <![CDATA[ToCalenderMonth element is detected and date is selected ]]>
+            </line>
+            <line>
+              <![CDATA[SearchButton element is detected and clicked. This will wait to fetch the hotel list ]]>
+            </line>
+            <line>
+              <![CDATA[List of hotels searched in the city on Homepage of trivago.de is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[Unser niedrigster Preis element is detected and clicked ]]>
+            </line>
+            <line>
+              <![CDATA[Option from Angebote is selected and the selected hotel detail is opened in a new tab]]>
+            </line>
+            <line>
+              <![CDATA[Post this step, the security blocks further execution via automated scripts]]>
+            </line>
           </reporter-output>
         </test-method> <!-- SearchHotelTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.SearchHotels@2b6856dd]" name="closeBrowser" is-config="true" duration-ms="2147" started-at="2020-08-26T02:51:25Z" finished-at="2020-08-26T02:51:27Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.SearchHotelsTest@2b6856dd]" name="closeBrowser" is-config="true" duration-ms="962" started-at="2020-08-27T02:19:32Z" finished-at="2020-08-27T02:19:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- test.SearchHotels -->
+      </class> <!-- test.SearchHotelsTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

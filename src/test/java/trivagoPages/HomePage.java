@@ -17,17 +17,17 @@ public class HomePage extends WaitForPagesToLoad {
 
 	/* Returns the Hotel namen element on landing page */
 
-	private WebElement hotelname() {
+	private WebElement HotelnameOrDestination() {
 
 		return browser.findElement(By.name("sQuery"));
 	}
 
 	/* Action performed on login button element on landing page */
 
-	public void enterHotelname() {
+	public void enterHotelnameOrDestination() {
 
-		waitForElementToBeClickable(browser, hotelname()).sendKeys("Hamburg", Keys.ENTER);
-		Reporter.log("Hotel name field is detected and Hotel Name is Entered", true);
+		waitForElementToBeClickable(browser, HotelnameOrDestination()).sendKeys("Hamburg", Keys.ENTER);
+		Reporter.log("EnterHotelnameOrDestination field is detected and destination name 'Hamburg' is entered", true);
 	}
 
 	private WebElement fromCalendermonth() {
@@ -50,7 +50,7 @@ public class HomePage extends WaitForPagesToLoad {
 			fromDate.click();
 			break;
 		}
-		Reporter.log("From calender month element is detected and date is selected ", true);
+		Reporter.log("FromCalenderMonth element is detected and date is selected ", true);
 	}
 
 	private WebElement toCalendermonth() {
@@ -70,7 +70,7 @@ public class HomePage extends WaitForPagesToLoad {
 				break;
 			}
 		}
-		Reporter.log("To calender month element is detected and date is selected ", true);
+		Reporter.log("ToCalenderMonth element is detected and date is selected ", true);
 	}
 
 	private WebElement searchButton() {
@@ -80,7 +80,7 @@ public class HomePage extends WaitForPagesToLoad {
 
 	public void clickSearchButton() {
 		waitForElementToBeClickable(browser, searchButton()).click();
-		Reporter.log("Search button element detected and clicked ", true);
+		Reporter.log("SearchButton element is detected and clicked. This will wait to fetch the hotel list ", true);
 	}
 
 }

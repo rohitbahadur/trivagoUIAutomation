@@ -11,7 +11,7 @@
       <![CDATA[Open trivago.de page]]>
     </line>
     <line>
-      <![CDATA[Hotel name field is detected adn Hotel Name is Entered]]>
+      <![CDATA[Hotel name field is detected and Hotel Name is Entered]]>
     </line>
     <line>
       <![CDATA[From calender month element is detected and date is selected ]]>
@@ -20,7 +20,7 @@
       <![CDATA[To calender month element is detected and date is selected ]]>
     </line>
     <line>
-      <![CDATA[Search button element detected and clicked ]]>
+      <![CDATA[Search button element is detected and clicked ]]>
     </line>
     <line>
       <![CDATA[List of hotels searched in the city on Homepage of trivago.de is displayed ]]>
@@ -29,18 +29,18 @@
       <![CDATA[Unser niedrigster Preis elemennt is detected and clicked ]]>
     </line>
     <line>
-      <![CDATA[Unser niedrigster Preis element is detected and an option is selected ]]>
+      <![CDATA[Option from Angebote is selected and the selected hotel detail is opened in a new tab]]>
     </line>
     <line>
-      <![CDATA[Unable to move past this page due to security reason]]>
+      <![CDATA[Post this step, the security blocks further execution via automated scripts]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="79388" started-at="2020-08-27T00:47:58Z" finished-at="2020-08-27T00:49:18Z">
+  <suite name="Default suite" duration-ms="79176" started-at="2020-08-27T01:59:44Z" finished-at="2020-08-27T02:01:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="79388" started-at="2020-08-27T00:47:58Z" finished-at="2020-08-27T00:49:18Z">
-      <class name="test.SearchHotels">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="openBrowser" is-config="true" duration-ms="11556" started-at="2020-08-27T00:47:58Z" finished-at="2020-08-27T00:48:10Z">
+    <test name="Default test" duration-ms="79176" started-at="2020-08-27T01:59:44Z" finished-at="2020-08-27T02:01:03Z">
+      <class name="test.SearchHotelsTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.SearchHotelsTest@1ffe63b9]" name="openBrowser" is-config="true" duration-ms="10545" started-at="2020-08-27T01:59:44Z" finished-at="2020-08-27T01:59:54Z">
           <reporter-output>
             <line>
               <![CDATA[Test Initiated]]>
@@ -53,10 +53,10 @@
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="SearchHotelTest()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="SearchHotelTest" duration-ms="66988" started-at="2020-08-27T00:48:10Z" description="Search Hotel in Hamburg" finished-at="2020-08-27T00:49:17Z">
+        <test-method status="PASS" signature="SearchHotelTest()[pri:0, instance:test.SearchHotelsTest@1ffe63b9]" name="SearchHotelTest" duration-ms="67560" started-at="2020-08-27T01:59:54Z" description="Search Hotel in Hamburg" finished-at="2020-08-27T02:01:02Z">
           <reporter-output>
             <line>
-              <![CDATA[Hotel name field is detected adn Hotel Name is Entered]]>
+              <![CDATA[Hotel name field is detected and Hotel Name is Entered]]>
             </line>
             <line>
               <![CDATA[From calender month element is detected and date is selected ]]>
@@ -65,7 +65,7 @@
               <![CDATA[To calender month element is detected and date is selected ]]>
             </line>
             <line>
-              <![CDATA[Search button element detected and clicked ]]>
+              <![CDATA[Search button element is detected and clicked ]]>
             </line>
             <line>
               <![CDATA[List of hotels searched in the city on Homepage of trivago.de is displayed ]]>
@@ -74,18 +74,18 @@
               <![CDATA[Unser niedrigster Preis elemennt is detected and clicked ]]>
             </line>
             <line>
-              <![CDATA[Unser niedrigster Preis element is detected and an option is selected ]]>
+              <![CDATA[Option from Angebote is selected and the selected hotel detail is opened in a new tab]]>
             </line>
             <line>
-              <![CDATA[Unable to move past this page due to security reason]]>
+              <![CDATA[Post this step, the security blocks further execution via automated scripts]]>
             </line>
           </reporter-output>
         </test-method> <!-- SearchHotelTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="closeBrowser" is-config="true" duration-ms="782" started-at="2020-08-27T00:49:17Z" finished-at="2020-08-27T00:49:18Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.SearchHotelsTest@1ffe63b9]" name="closeBrowser" is-config="true" duration-ms="1037" started-at="2020-08-27T02:01:02Z" finished-at="2020-08-27T02:01:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- test.SearchHotels -->
+      </class> <!-- test.SearchHotelsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
