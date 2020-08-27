@@ -1,5 +1,5 @@
 ## trivago search 
-trivago search hotel is a selenium based test automation platform for performing UI based automated search. 
+trivago search is a test automation utlity for performing browser based automated search using selenium webdriver. 
 
 ### Tech stack used in building the framework 
 ##### Programming language used: java 1.8
