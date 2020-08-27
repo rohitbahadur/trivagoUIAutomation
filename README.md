@@ -1,4 +1,4 @@
-# trivago search 
+### trivago search 
 trivago search hotel is a selenium based test automation platform for performing UI based automated search. 
 
 ### Tech stack used in building the framework 
