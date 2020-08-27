@@ -5,6 +5,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Reporter;
 
 import utils.WaitForPagesToLoad;
 
@@ -29,7 +30,8 @@ public class DisplayHotelsListPage extends WaitForPagesToLoad {
 			fromHotelsList.getText();
 			break;
 		}
-
+		
+		Reporter.log("List of hotels searched in the city on Homepage of trivago.de is displayed ", true);
 	}
 
 	private WebElement viewDeal() {
@@ -40,7 +42,7 @@ public class DisplayHotelsListPage extends WaitForPagesToLoad {
 	public void clickViewDeal() {
 
 		waitForElementToBeClickable(browser, viewDeal()).click();
-
+		Reporter.log("Unser niedrigster Preis elemennt is detected and clicked ", true);
 	}
 
 	private WebElement angebote() {
@@ -48,9 +50,13 @@ public class DisplayHotelsListPage extends WaitForPagesToLoad {
 		return browser.findElement(By.xpath("//div[contains(@class,'slideouts__container')]"));
 	}
 
-	public void selectAngebote() {
+	public void selectOptionFromAngebote() {
 
 		waitForElementToBeClickable(browser, angebote()).click();
+		
+		Reporter.log("Unser niedrigster Preis element is detected and an option is selected ", true);
+		
+		Reporter.log("Unable to move past this page due to security reason", true);
 
 	}
 

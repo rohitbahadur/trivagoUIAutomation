@@ -28,13 +28,11 @@ public class SearchHotels extends DriverSetUp {
 
 		listHotels.clickViewDeal();
 
-		listHotels.selectAngebote();
+		listHotels.selectOptionFromAngebote();
 
 		listHotels.waitForPageToLoadFully();
 
 		Assert.assertTrue(true, "trivago.de");
-
-		System.out.println("Unable to verify hotel name : Security reasons");
 
 	}
 

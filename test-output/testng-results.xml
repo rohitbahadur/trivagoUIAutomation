@@ -1,21 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Test Initiated]]>
+    </line>
+    <line>
+      <![CDATA[Launch chrome browser]]>
+    </line>
+    <line>
+      <![CDATA[Open trivago.de page]]>
+    </line>
+    <line>
+      <![CDATA[Hotel name field is detected adn Hotel Name is Entered]]>
+    </line>
+    <line>
+      <![CDATA[From calender month element is detected and date is selected ]]>
+    </line>
+    <line>
+      <![CDATA[To calender month element is detected and date is selected ]]>
+    </line>
+    <line>
+      <![CDATA[Search button element detected and clicked ]]>
+    </line>
+    <line>
+      <![CDATA[List of hotels searched in the city on Homepage of trivago.de is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[Unser niedrigster Preis elemennt is detected and clicked ]]>
+    </line>
+    <line>
+      <![CDATA[Unser niedrigster Preis element is detected and an option is selected ]]>
+    </line>
+    <line>
+      <![CDATA[Unable to move past this page due to security reason]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="76702" started-at="2020-08-26T23:57:29Z" finished-at="2020-08-26T23:58:46Z">
+  <suite name="Default suite" duration-ms="79388" started-at="2020-08-27T00:47:58Z" finished-at="2020-08-27T00:49:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="76702" started-at="2020-08-26T23:57:29Z" finished-at="2020-08-26T23:58:46Z">
+    <test name="Default test" duration-ms="79388" started-at="2020-08-27T00:47:58Z" finished-at="2020-08-27T00:49:18Z">
       <class name="test.SearchHotels">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="openBrowser" is-config="true" duration-ms="8565" started-at="2020-08-26T23:57:29Z" finished-at="2020-08-26T23:57:38Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="openBrowser" is-config="true" duration-ms="11556" started-at="2020-08-27T00:47:58Z" finished-at="2020-08-27T00:48:10Z">
           <reporter-output>
+            <line>
+              <![CDATA[Test Initiated]]>
+            </line>
+            <line>
+              <![CDATA[Launch chrome browser]]>
+            </line>
+            <line>
+              <![CDATA[Open trivago.de page]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="SearchHotelTest()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="SearchHotelTest" duration-ms="67326" started-at="2020-08-26T23:57:38Z" description="Search Hotel in Hamburg" finished-at="2020-08-26T23:58:45Z">
+        <test-method status="PASS" signature="SearchHotelTest()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="SearchHotelTest" duration-ms="66988" started-at="2020-08-27T00:48:10Z" description="Search Hotel in Hamburg" finished-at="2020-08-27T00:49:17Z">
           <reporter-output>
+            <line>
+              <![CDATA[Hotel name field is detected adn Hotel Name is Entered]]>
+            </line>
+            <line>
+              <![CDATA[From calender month element is detected and date is selected ]]>
+            </line>
+            <line>
+              <![CDATA[To calender month element is detected and date is selected ]]>
+            </line>
+            <line>
+              <![CDATA[Search button element detected and clicked ]]>
+            </line>
+            <line>
+              <![CDATA[List of hotels searched in the city on Homepage of trivago.de is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[Unser niedrigster Preis elemennt is detected and clicked ]]>
+            </line>
+            <line>
+              <![CDATA[Unser niedrigster Preis element is detected and an option is selected ]]>
+            </line>
+            <line>
+              <![CDATA[Unable to move past this page due to security reason]]>
+            </line>
           </reporter-output>
         </test-method> <!-- SearchHotelTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="closeBrowser" is-config="true" duration-ms="768" started-at="2020-08-26T23:58:45Z" finished-at="2020-08-26T23:58:46Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.SearchHotels@1ffe63b9]" name="closeBrowser" is-config="true" duration-ms="782" started-at="2020-08-27T00:49:17Z" finished-at="2020-08-27T00:49:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
