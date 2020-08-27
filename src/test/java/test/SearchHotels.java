@@ -12,40 +12,30 @@ public class SearchHotels extends DriverSetUp {
 
 	HomePage homepage = new HomePage();
 	DisplayHotelsListPage listHotels = new DisplayHotelsListPage();
-	
-	
+
 	WebDriver browser;
 
-	@Test(description= "Search Hotel in Hamburg")
-	
-	public void SearchHotelTest() throws InterruptedException {
-		
+	@Test(description = "Search Hotel in Hamburg")
+
+	public void SearchHotelTest() {
 
 		homepage.enterHotelname();
 		homepage.selectFromCalendermonth();
 		homepage.selectToCalenderMonth();
 		homepage.clickSearchButton();
-		
+
 		listHotels.selectFromlistOfHotelsDisplayed();
-		
-		System.out.println("Hotel List displayed");
-		
+
 		listHotels.clickViewDeal();
-		
-		System.out.println("view deal");
-		
-		//listHotels.waitForPageToLoadFully();
-		
-		Thread.sleep(5000);
+
 		listHotels.selectAngebote();
-		
+
 		listHotels.waitForPageToLoadFully();
-		
+
 		Assert.assertTrue(true, "trivago.de");
 
-		System.out.println("Browser launched");
+		System.out.println("Unable to verify hotel name : Security reasons");
 
 	}
 
-	
 }

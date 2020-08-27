@@ -6,12 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-import utils.ScrollPage;
 import utils.WaitForPagesToLoad;
 
 public class DisplayHotelsListPage extends WaitForPagesToLoad {
-
-	// ScrollPage scroll = new ScrollPage();
 
 	private WebElement allHotelsDisplayed() {
 
@@ -36,7 +33,6 @@ public class DisplayHotelsListPage extends WaitForPagesToLoad {
 	}
 
 	private WebElement viewDeal() {
-		// scroll.scrollPage();
 
 		return browser.findElement(By.xpath("//button[@data-qa='cheapest-deal']"));
 	}
@@ -45,14 +41,11 @@ public class DisplayHotelsListPage extends WaitForPagesToLoad {
 
 		waitForElementToBeClickable(browser, viewDeal()).click();
 
-		Actions as = new Actions(browser);
-		as.moveToElement(viewDeal()).click().build().perform();
-
 	}
 
 	private WebElement angebote() {
 
-		return browser.findElement(By.xpath("//button[text()='Angebote']"));
+		return browser.findElement(By.xpath("//div[contains(@class,'slideouts__container')]"));
 	}
 
 	public void selectAngebote() {
