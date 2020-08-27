@@ -1,4 +1,4 @@
-### trivago search 
+## trivago search 
 trivago search hotel is a selenium based test automation platform for performing UI based automated search. 
 
 ### Tech stack used in building the framework 
@@ -38,7 +38,7 @@ If github is not configured on the system, then project can be downloaded using 
 
 
 
-#### Project Design Strategy
+### Project Design Strategy
 
 #### The project is designed using page object model principles.
 1. pages package --> Page objects are stored in their respective page under "trivagoPages" package.
