@@ -35,12 +35,12 @@
       <![CDATA[Post this step, the security blocks further execution via automated scripts]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="78042" started-at="2020-08-27T02:39:17Z" finished-at="2020-08-27T02:40:36Z">
+  <suite name="Suite" duration-ms="76149" started-at="2020-08-29T17:25:51Z" finished-at="2020-08-29T17:27:07Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="78042" started-at="2020-08-27T02:39:17Z" finished-at="2020-08-27T02:40:36Z">
+    <test name="Test" duration-ms="76149" started-at="2020-08-29T17:25:51Z" finished-at="2020-08-29T17:27:07Z">
       <class name="test.SearchHotelsTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.SearchHotelsTest@2b6856dd]" name="openBrowser" is-config="true" duration-ms="8916" started-at="2020-08-27T02:39:18Z" finished-at="2020-08-27T02:39:26Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.SearchHotelsTest@5606c0b]" name="openBrowser" is-config="true" duration-ms="8228" started-at="2020-08-29T17:25:51Z" finished-at="2020-08-29T17:25:59Z">
           <reporter-output>
             <line>
               <![CDATA[Test Initiated]]>
@@ -53,7 +53,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="SearchHotelTest()[pri:0, instance:test.SearchHotelsTest@2b6856dd]" name="SearchHotelTest" duration-ms="68330" started-at="2020-08-27T02:39:26Z" description="Search Hotel in Hamburg" finished-at="2020-08-27T02:40:35Z">
+        <test-method status="PASS" signature="SearchHotelTest()[pri:0, instance:test.SearchHotelsTest@5606c0b]" name="SearchHotelTest" duration-ms="67048" started-at="2020-08-29T17:25:59Z" description="Search Hotel in Hamburg" finished-at="2020-08-29T17:27:07Z">
           <reporter-output>
             <line>
               <![CDATA[EnterHotelnameOrDestination field is detected and destination name 'Hamburg' is entered]]>
@@ -81,7 +81,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SearchHotelTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.SearchHotelsTest@2b6856dd]" name="closeBrowser" is-config="true" duration-ms="758" started-at="2020-08-27T02:40:35Z" finished-at="2020-08-27T02:40:36Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.SearchHotelsTest@5606c0b]" name="closeBrowser" is-config="true" duration-ms="841" started-at="2020-08-29T17:27:07Z" finished-at="2020-08-29T17:27:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
